@@ -59,8 +59,14 @@ margin-bottom: 10px;
 .two-column {
     flex: 100%;
 }
+@media (min-width: 40.0625em) {
 .three-column {
   flex: 33%;
+  padding: 5px;
+}
+}
+.three-column {
+  flex: 100%;
   padding: 5px;
 }
 .four-column {
