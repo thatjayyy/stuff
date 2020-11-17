@@ -61,13 +61,12 @@ margin-bottom: 10px;
 }
 @media (min-width: 40.0625em) {
 .three-column {
-  flex: 33%;
+  flex: 33% !important;
   padding: 5px;
 }
 }
 .three-column {
   flex: 100%;
-  padding: 5px;
 }
 .four-column {
   flex: 25%;
