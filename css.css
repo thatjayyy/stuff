@@ -42,7 +42,6 @@ font-family: "Interstate",Arial,sans-serif;
 }
 .row {
   display: flex;
-  border-bottom: 2px solid #949e83;
 margin-top: 10px;
 margin-bottom: 10px;
 }
@@ -72,6 +71,7 @@ margin-bottom: 10px;
   flex: 25%;
   padding: 5px;
 }
+
 table {
     display: table;
     border-collapse: separate;
@@ -199,7 +199,7 @@ font-size: 15px;
 margin-top: -12px;
 }
 @media print
-{    
+{
     .no-print, .no-print *
     {
         display: none !important;
@@ -239,5 +239,5 @@ margin-top: -5px;
 }
 header {
 position: relative;
-top: -10px; 
+top: -10px;
 }
